@@ -46,3 +46,27 @@ h1 {
 	font-size: 2rem;
 	margin: 0 50px;
 }
+
+@media (max-width: 992px) {
+	h1 {
+		font-size: 7rem;
+	}
+
+	.timer {
+		font-size: 5rem;
+	}
+}
+
+@media (max-width: 670px) {
+	h1 {
+		font-size: 5rem;
+	}
+
+	.timer {
+		font-size: 3rem;
+	}
+
+	.txt {
+		font-size: 1.5rem;
+	}
+}
